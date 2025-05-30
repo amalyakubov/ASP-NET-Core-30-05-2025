@@ -22,6 +22,7 @@ public class Program
                 options.UseSqlServer(builder.Configuration.GetConnectionString("ProductionMvcMovieContext")));
         }
 
+
         // Add services to the container.
         builder.Services.AddControllersWithViews();
 
